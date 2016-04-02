@@ -35,7 +35,7 @@
         NSLog(@"ruby's alpha = %1.0f" ,self.ruby.alpha);
     } completion:^(BOOL finished){
         [UIView animateWithDuration:6 animations:^{
-            self.iamrich.center = CGPointMake(self.iamrich.center.x,120);
+            self.iamrich.center = CGPointMake(self.iamrich.center.x,100);
             self.iamrich.alpha = 1;
         } completion:nil];
         
